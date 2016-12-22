@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://code.alibabatech.com/schema/dubbo
+            http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:config.properties"/>
+
+    <!--<bean id="fileUploadResolver" class="com.aiton.framework.web.common.upload.FileUploadResolver">-->
+        <!--<property name="properties" ref="configProperties"/>-->
+    <!--</bean>-->
+
+    <bean id="configProperties" class="com.hyq.common.ConfigProperties" init-method="init">
+        <property name="location" value="classpath:config.properties"/>
+    </bean>
+
+    <dubbo:application name="aiton-in-webapp"/>
+
+    <dubbo:registry protocol="zookeeper"
+                    address="${zookeeper.host}:${zookeeper.port}" file="${dubbo.cache.dir}/admin.cache"/>
+
+</beans>
