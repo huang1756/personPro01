@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hyq-web-webapp:war">
+    <output-path>$PROJECT_DIR$/hyq-web-webapp/target</output-path>
+    <root id="archive" name="hyq-web-webapp.war">
+      <element id="artifact" artifact-name="hyq-web-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

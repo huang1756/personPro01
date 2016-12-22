@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.com.guju:CCP_REST_SDK_JAVA_v2.7r:1.0">
+    <CLASSES>
+      <root url="jar://D:/aiton-repository/cn/com/guju/CCP_REST_SDK_JAVA_v2.7r/1.0/CCP_REST_SDK_JAVA_v2.7r-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/aiton-repository/cn/com/guju/CCP_REST_SDK_JAVA_v2.7r/1.0/CCP_REST_SDK_JAVA_v2.7r-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/aiton-repository/cn/com/guju/CCP_REST_SDK_JAVA_v2.7r/1.0/CCP_REST_SDK_JAVA_v2.7r-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

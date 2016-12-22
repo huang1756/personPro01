@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hyq-api/hyq-api.iml" filepath="$PROJECT_DIR$/hyq-api/hyq-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyq-provider/hyq-provider.iml" filepath="$PROJECT_DIR$/hyq-provider/hyq-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyq-web-webapp/hyq-web-webapp.iml" filepath="$PROJECT_DIR$/hyq-web-webapp/hyq-web-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personPro.iml" filepath="$PROJECT_DIR$/personPro.iml" />
+    </modules>
+  </component>
+</project>

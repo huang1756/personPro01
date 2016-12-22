@@ -8,7 +8,7 @@ import javax.persistence.*;
  */
 @MappedSuperclass
 public class BaseEntity {
-    /**ID2222*/
+    /**ID222266666666666666666666666666666666666666666666666*/
     @Id
     @GeneratedValue(
             strategy = GenerationType.AUTO
